@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Fixed image element -->
+    <img class="logo" src="logo.jpg" alt="dog collars" class="centered-image">
+  </div>
+  <section id="header">
+    <div>
+      <u1 class="navbar list-unstyled">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+
+      </u1>
+    </div>
+  </section>
+
+  <div class="border border-secondary col-lg-9 col-md-9 col-md-9 container my-3">
+    <div class="row g-3">
+      <div class="col-lg-6 col-md-6 col-sm-6 pt-3">
+        <ul>
+          <li class="list-group-item"><strong>Get In Touch</strong></li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg>
+            <a href="mailto:contact@unleashed.co.uk">contact@unleashed.co.uk</a>
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <a href="tel:07711223344">07711223344</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="list-group-item"><strong>Address</strong></li>
+          <li class="list-group-item">10 Downing Street</li>
+          <li class="list-group-item">London</li>
+          <li class="list-group-item">SW1A 2AA</li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 pt-3">
+        <div style="overflow:hidden;max-width:100%;width:400px;height:200px;">
+          <div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe
+              style="height:100%;width:100%;border:0;" frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?q=10+Downing+Street,+Downing+Street,+London,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div>
+          <style>
+            #display-google-map img {
+              max-height: none;
+              max-width: none !important;
+              background: none !important;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border border-secondary col-lg-9 col-md-9 col-md-9 container my-3">
+    <form id="contactForm" class="row" action="">
+      <div class="mb-row">
+        <div class="my-3">
+          <input type="text" class="form-control" id="contactName" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="contactEmail" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="followussocial">
+    <p><strong>Follow Us</strong></p>
+  </div>
+
+  <div class="container">
+    <a target="_blank" href="https://www.instagram.com/"><img class="instagram" src="instagram.svg"></a>
+    <a target="_blank" href="https://www.facebook.com/"><img class="facebook" src="facebook.svg"></a>
+    <a target="_blank" href="https://www.pinterest.com/"><img class="pinterest" src="pinterest.svg"></a>
+  </div>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="contact.html">Contact Us</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <footer>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+  </footer>
+
+
+</body>
+
+</html>
